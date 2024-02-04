@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+    body {
+        background-image: url('https://img.freepik.com/fotos-premium/fundo-desfocado-suave-e-suave-de-luxo-gradiente-preto-azul-papel-de-parede-elegante-sem-faixas-de-cores_741309-211.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .center-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .image-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-row img {
+        margin: 10px;
+        max-width: 100%;
+        height: auto;
+        border: 5px solid black;
+    }
+
+    .image-caption {
+        text-align: center;
+    }
+
+    .image-caption h2 {
+        font-size: 24px;
+    }
+
+  .image-caption p {
+      font-size: 18px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra de texto */
+  }
+
+    .header {
+        background-color: black;
+        padding: 10px;
+    }
+
+    .footer {
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+
+    .header h1, .footer p {
+        color: red;
+    }
+  a {
+      color: #00f; /* Cor do link azul */
+      text-decoration: underline;
+  }
+
+  /* Adicione esse estilo para links quando hover para realçar */
+  a:hover {
+      color: #f00; /* Cor do link vermelho quando hover */
+  }
+
+  .center {
+      text-align: center;
+  }
+
+  /* Adicione margem superior e inferior para todos os parágrafos */
+  p {
+      margin: 10px 0;
+  }
+
+  .black-background {
+      background-color: black;
+  }
+
+.white-background p,
+.white-background span.date {
+    color: black !important;
+}
+
+  .date {
+      color: red;
+  }
